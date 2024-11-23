@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "cucumber-test": "cucumber-js test"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/lalitkushwaha1410/learn-playwright.git"
@@ -16,7 +18,12 @@
   },
   "homepage": "https://github.com/lalitkushwaha1410/learn-playwright#readme",
   "devDependencies": {
+    "@cucumber/cucumber": "^11.1.0",
     "@playwright/test": "^1.45.3",
-    "@types/node": "^22.1.0"
+    "@types/node": "^22.1.0",
+    "ts-node": "^10.9.2"
+  },
+  "dependencies": {
+    "yarn": "^1.22.22"
   }
 }
